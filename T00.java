@@ -7,38 +7,36 @@ public class T00 {
     public static void main(String[] args) {
         int bil1, bil2, ho;
 
-        System.out.println("masukkan bilangaan pertama");
         bil1 = Integer.parseInt(input.nextLine());
-        System.out.println("masukkan bilangan kedua");
         bil2 = Integer.parseInt(input.nextLine());
         if (bil1 % 2 == 0) {
-            System.out.println("bilangan pertama: genap");
+            System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("bilangan pertama: ganjil");
+            System.out.println("Bilangan pertama:Ganjil");
         }
         if (bil2 % 2 == 0) {
-            System.out.println("bilangan kedua : genap");
+            System.out.println("Bilangan kedua : Genap");
         } else {
-            System.out.println("bilangan kedua : ganjil");
+            System.out.println("Bilangan kedua : Ganjil");
         }
         if (bil1 == bil2) {
-            System.out.println("kedua bilangan sama besar");
+            System.out.println("Kedua bilangan sama besar");
         } else {
             if (bil1 > bil2) {
-                System.out.println("bilangan pertama lebih besar");
+                System.out.println("Bilangan pertama lebih besar");
             } else {
-                System.out.println("bilangan kedua lebih besar");
+                System.out.println("Bilangan kedua lebih besar");
             }
         }
         if (bil1 % 2 != 0 && bil2 % 2 != 0) {
             ho = bil1 * bil2;
-            System.out.println("hasil perkalian:" + ho);
+            System.out.println("Hasil perkalian: " + ho);
         } else {
             if (bil1 % 2 == 0 && bil2 % 2 == 0) {
                 ho = bil1 + bil2;
-                System.out.println("hasil penjumlahan:" + ho);
+                System.out.println("Hasil penjumlahan: " + ho);
             } else {
-                System.out.println("berbea jenis");
+                System.out.print("Berbeda jenis");
             }
         }
     }
