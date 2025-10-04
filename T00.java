@@ -1,5 +1,3 @@
-// 12S25025 - Adellita Varesu simamora
-// 12S25022 - Grace Lusyanna Marpaung
 import java.util.*;
 import java.lang.Math;
 
