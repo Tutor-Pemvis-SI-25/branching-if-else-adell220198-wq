@@ -12,12 +12,12 @@ public class T00 {
         if (bil1 % 2 == 0) {
             System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("Bilangan pertama:Ganjil");
+            System.out.println("Bilangan pertama: Ganjil");
         }
         if (bil2 % 2 == 0) {
-            System.out.println("Bilangan kedua : Genap");
+            System.out.println("Bilangan kedua: Genap");
         } else {
-            System.out.println("Bilangan kedua : Ganjil");
+            System.out.println("Bilangan kedua: Ganjil");
         }
         if (bil1 == bil2) {
             System.out.println("Kedua bilangan sama besar");

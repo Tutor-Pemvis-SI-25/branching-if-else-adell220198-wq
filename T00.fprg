@@ -4,9 +4,9 @@
         <attribute name="name" value="Tutor 1 pemvis"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-04 11:09:23 AM"/>
+        <attribute name="saved" value="2025-10-04 11:13:10 AM"/>
         <attribute name="created" value="QVNVUztMQVBUT1AtVjg2OEVPM0M7MjAyNS0xMC0wMTswODozMToyMCBQTTsyNjEy"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtVjg2OEVPM0M7MjAyNS0xMC0wNDsxMTowOToyMyBBTTszOzI3MTI="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtVjg2OEVPM0M7MjAyNS0xMC0wNDsxMToxMzoxMCBBTTs0OzI3MDQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -19,15 +19,15 @@
                     <output expression="&quot;Bilangan pertama: Genap&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Bilangan pertama:Ganjil&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan pertama: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="bil2 Mod 2 ==0">
                 <then>
-                    <output expression="&quot;Bilangan kedua : Genap&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua: Genap&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Bilangan kedua : Ganjil&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="bil1 == bil2">
